@@ -8,11 +8,11 @@ def scramble_word(word):
         random.shuffle(middle)
         return word[0] + ''.join(middle) + word[-1]
 
-def scramble_file(tekst.txt):
-    with open(tekst.txt, 'r') as file:
+def scramble_file(filename):
+    with open(filename, 'r') as file:
         content = file.read()
         words = content.split()
         scrambled_words = [scramble_word(word) for word in words]
         scrambled_content = ' '.join(scrambled_words)
-    with open(tekst.txt, 'w') as file:
+    with open("output_tekst", 'w') as file:
         file.write(scrambled_content)
