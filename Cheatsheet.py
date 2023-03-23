@@ -1,10 +1,10 @@
 import random
 
 # Åben og læs input filen
-with open('input.txt', 'r') as input_file:
-
+with open('input.txt', 'r', encoding='utf8') as input_file:
+# (encoding er fordi vi vil bruge en bestemt ascii )
     # Åben output filen så den kan skrive ny tekst
-    with open('output.txt', 'w') as output_file:
+    with open('output.txt', 'w', encoding='utf8') as output_file:
 
         # Gå igennem hver linje i input filen
         for line in input_file:
