@@ -21,9 +21,9 @@ with open('input.txt', 'r', encoding='utf8') as input_file:
                     continue
 
                 # Eller blander den bogstaverne i midten af ordet
-                middle_letters = list(word[1:-1])
+                middle_letters = list(word[1:-1]) # word [1.-1] siger at vi tager det første og sidste tegn
                 random.shuffle(middle_letters)
-                scrambled_word = word[0] + ''.join(middle_letters) + word[-1]
+                scrambled_word = word[0] + ''.join(middle_letters) + word[-1] # samler ordene og laver et mellemrum efter sidste tegn
 
                 # Skriv de nye blandet ord ind i output filen
                 output_file.write(scrambled_word + ' ')
