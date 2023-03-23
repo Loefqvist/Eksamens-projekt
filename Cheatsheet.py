@@ -1,32 +1,32 @@
 import random
 
-# Open the input file for reading
+# Åben og læs input filen
 with open('input.txt', 'r') as input_file:
 
-    # Open the output file for writing
+    # Åben output filen så den kan skrive ny tekst
     with open('output.txt', 'w') as output_file:
 
-        # Loop over each line in the input file
+        # Gå igennem hver linje i input filen
         for line in input_file:
 
-            # Split the line into individual words
+            # Del linjerne til hver sit ord 
             words = line.split()
 
-            # Loop over each word in the line
+            # Gå igennem hvert ord i linjen
             for word in words:
 
-                # If the word has length 1 or 2, write it unchanged to the output file
+                # Hvis ordet har 1 eller 2 bogstaber, bliver det ikke blandet i output filen
                 if len(word) <= 2:
                     output_file.write(word + ' ')
                     continue
 
-                # Otherwise, scramble the word by shuffling the middle letters
+                # Eller blander den bogstaverne i midten af ordet
                 middle_letters = list(word[1:-1])
                 random.shuffle(middle_letters)
                 scrambled_word = word[0] + ''.join(middle_letters) + word[-1]
 
-                # Write the scrambled word to the output file
+                # Skriv de nye blandet ord ind i output filen
                 output_file.write(scrambled_word + ' ')
 
-            # Write a newline character to the output file to separate lines
+            # Lav en ny række for at separere linjerne
             output_file.write('\n')
