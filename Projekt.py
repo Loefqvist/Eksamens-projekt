@@ -1,18 +1,23 @@
 import random
 
-def scramble_word(word):
-    if len(word) <= 2:
-        return word
-    else:
-        middle = list(word[1:-1])
-        random.shuffle(middle)
-        return word[0] + ''.join(middle) + word[-1]
+with open('tekst.txt', 'r') as input_file:
 
-def scramble_file(filename):
-    with open('tekst.txt', 'r') as file:
-        content = file.read()
-        words = content.split()
-        scrambled_words = [scramble_word(word) for word in words]
-        scrambled_content = ' '.join(scrambled_words)
-    with open("output.txt", 'w') as file:
-        file.write(scrambled_content)
+    with open('output.txt', 'w') as output_file:
+
+        for line in input_file:
+
+            words = line.split()
+
+            for word in words:
+
+                if len(word) <= 2:
+                    output_file.write(word + ' ')
+                    continue
+
+                middle_letters = list(word[1:-1])
+                random.shuffle(middle_letters)
+                scrambled_word = word[0] + ''.join(middle_letters) + word[-1]
+
+                output_file.write(scrambled_word + ' ')
+
+            output_file.write('\n')

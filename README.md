@@ -20,4 +20,4 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [ ] 
 
 ### Icebox
-[ ]
+[ ] 
