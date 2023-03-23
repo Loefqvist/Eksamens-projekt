@@ -19,5 +19,3 @@ with open('input.txt', 'r', encoding='utf8') as input_file:
                 scrambled_word = word[0] + ''.join(middle_letters) + word[-1]
 
                 output_file.write(scrambled_word + ' ')
-
-            output_file.write('\n')
