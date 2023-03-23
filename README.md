@@ -11,12 +11,12 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [x] brainstorm
 [x] lave et delt git repository
 [x] en tidslinje
+[x] skrive kode
 
 ### In Progress
-[ ] arbejde på kode
-
-### Todo
 [ ] lav tekst.txt filen længere og lidt sværere for filen at skrive om.
 
+### Todo
+[ ] gør koden lidt mere smooth
 ### Icebox
 [ ]rapport efter kode fungerer
