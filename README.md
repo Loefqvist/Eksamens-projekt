@@ -15,7 +15,6 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 ### In Progress
 [ ] arbejde på kode
 
-
 ### Todo
 [ ] lav tekst.txt filen længere og lidt sværere for filen at skrive om.
 
