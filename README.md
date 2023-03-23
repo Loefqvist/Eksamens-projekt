@@ -17,7 +17,7 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 
 
 ### Todo
-[ ] 
+[ ] lav tekst.txt filen længere og lidt sværere for filen at skrive om.
 
 ### Icebox
 [ ]rapport efter kode fungerer
