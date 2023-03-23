@@ -13,11 +13,11 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [x] en tidslinje
 
 ### In Progress
+[ ] arbejde på kode
 
 
 ### Todo
 [ ] 
-[ ] 
 
 ### Icebox
-[ ]
+[ ]rapport efter kode er done og virker

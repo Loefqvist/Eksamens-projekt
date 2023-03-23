@@ -9,7 +9,7 @@ def scramble_word(word):
         return word[0] + ''.join(middle) + word[-1]
 
 def scramble_file(filename):
-    with open('tekst.txt', 'r') as file:
+    with open("tekst.txt", 'r') as file:
         content = file.read()
         words = content.split()
         scrambled_words = [scramble_word(word) for word in words]
