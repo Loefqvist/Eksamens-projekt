@@ -15,14 +15,14 @@ with open('input.txt', 'r', encoding='utf8') as input_file:
             # Gå igennem hvert ord i linjen
             for word in words:
 
-                # Hvis ordet har 1 eller 2 bogstaber, bliver det ikke blandet i output filen
+                # Hvis ordet er på mindre end 2 bogstaber, bliver det sprunget over
                 if len(word) <= 2:
                     output_file.write(word + ' ')
                     continue
 
                 # Eller blander den bogstaverne i midten af ordet
                 middle_letters = list(word[1:-1]) # word [1.-1] siger at vi tager det første og sidste tegn
-                random.shuffle(middle_letters)
+                random.shuffle(middle_letters) # random shuffler bogstaverne i midten
                 scrambled_word = word[0] + ''.join(middle_letters) + word[-1] # samler ordene og laver et mellemrum efter sidste tegn
 
                 # Skriv de nye blandet ord ind i output filen
