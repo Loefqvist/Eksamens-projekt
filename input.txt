@@ -1,1 +1,3 @@
-Hej vi er Magnus og Jonas, vi har programmereret den her tekst til at ville vise hvordan en med ordblindhed måske ville have læst det.
+Hej vi er Magnus og Jonas
+Vi har programmereret den her kode til at kunne vise hvordan en med ordblindhed måske ville have læst det
+Formålet med hvad den kan bruges til er at give folk en bedre forståelse på hvordan en ordblind faktisk læse ting på
