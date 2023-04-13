@@ -30,3 +30,4 @@ with open('input.txt', 'r', encoding='utf8') as input_file:
 
             # Lav en ny række for at separere linjerne
             output_file.write('\n')
+            # backslash n er et tegn for at skrive ny linje
