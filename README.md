@@ -15,11 +15,11 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 
 ### In Progress
 [ ] lav input.txt filen længere og lidt sværere for filen at skrive om.
+[ ] gør koden lidt mere smooth
 
 ### Todo
-[ ] gør koden lidt mere smooth
-### Icebox
 [ ]rapport efter kode fungerer
+### Icebox
 
 
 
