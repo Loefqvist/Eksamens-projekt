@@ -1,3 +1,9 @@
 Hej vi er Magnus og Jonas
 Vi har programmereret den her kode til at kunne vise hvordan en med ordblindhed måske ville have læst det
 Formålet med hvad den kan bruges til er at give folk en bedre forståelse på hvordan en ordblind faktisk læse ting på
+Ordblindhed (dysleksi) er en læsevanskelighed, der gør det vanskeligt for personer at lære at læse og skrive korrekt. 
+Dette skyldes vanskeligheder med at forbinde bogstaver og bogstavfølger med sproglyde og lydfølger. 
+Mennesker med ordblindhed har ofte svært ved at skelne mellem bogstaver eller ord og kan derfor have problemer med at læse højt eller forstå, hvad de læser.
+Det er vigtigt at forstå, at ordblindhed er en reel og udfordrende læsevanskelighed, som påvirker mange mennesker i deres daglige liv. 
+Mennesker med ordblindhed har brug for støtte og tilpasninger for at kunne lære og kommunikere effektivt.
+Det er derfor vigtigt at fortsætte med at forske i og forstå ordblindhed, så vi kan finde bedre måder at hjælpe og støtte personer med ordblindhed.

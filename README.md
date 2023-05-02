@@ -12,17 +12,12 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [x] lave et delt git repository
 [x] en tidslinje
 [x] skrive kode
+[x] lav input.txt filen længere og lidt sværere for filen at skrive om.
 
 ### In Progress
-[ ] lav input.txt filen længere og lidt sværere for filen at skrive om.
 [ ] gør koden lidt mere smooth
+[ ]rapport efter kode fungerer
 
 ### Todo
-[ ]rapport efter kode fungerer
+
 ### Icebox
-
-
-
-links:
-https://www.asciitable.com
-https://www.tutorialspoint.com/How-to-read-and-write-unicode-UTF-8-files-in-Python
