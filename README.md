@@ -14,7 +14,7 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [x] skrive kode
 [x] lav input.txt filen længere og lidt sværere for filen at skrive om.
 [x] gør koden lidt mere smooth
-[x]rapport efter kode fungerer
+[x]rapport efter kode fungerer som den skal
 
 ### In Progress
 
