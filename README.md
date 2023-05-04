@@ -13,10 +13,10 @@ lave er projekt som kan vise hvordan ordblindhed fungerer med randomizer fra pyt
 [x] en tidslinje
 [x] skrive kode
 [x] lav input.txt filen længere og lidt sværere for filen at skrive om.
+[x] gør koden lidt mere smooth
+[x]rapport efter kode fungerer
 
 ### In Progress
-[ ] gør koden lidt mere smooth
-[ ]rapport efter kode fungerer
 
 ### Todo
 
